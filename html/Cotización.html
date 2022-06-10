@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3</title>
+ <!-- estilos personalizados-->
+ <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+
+    <header class="Encabezado">
+        <h1>Cotización</h1>               
+    </header>
+
+    <div class="contenedor">
+        <nav class="nav-main">
+       <!--    <img src="img/brand.png" alt="alternativo" class="nav-brand">-->
+            <!-- ul para la lista de navegación-->
+            <ul class="nav-menu show">
+    <li><a href="../index.html">Negocio</a></li>
+    <li><a href="Catálogo.html">Catálogo de productos</a></li>
+    <li><a href="Cotización.html">Solicitud de cotización</a></li>
+    <li><a href="Contacto.html">Contacto</a></li>
+    <li><a href="Administrativa.html">Acceso a usuarios</a></li>
+            </ul>
+        </nav>
+    <!-- hr da una separación de página-->
+    <hr> 
+      
+    <p>
+        El formulario que se presenta a continuación tiene el objetivo de recolectar datos
+        para brindarle un mejor servicio al crear una cuenta y enviarle sus productos
+    </p>
+    
+    <br>
+    <br>
+
+    <div class="formulaCon">
+        <div>
+            <h1>Cotización</h1>
+        </div>
+        
+        <br>
+
+    <form method="POST" action="../php/RegistroCoti.php">
+    
+            
+            <div class="form-group">
+            <label for="NombreCompleto">Nombre Completo</label>
+            <input type="text" name="NombreCompleto" class="form-control" id="NombreCompleto">
+            </div>
+            
+            <div class="form-group">
+            <label for="Correo">Correo Electrónico</label>
+            <input type="text" name="Correo" class="form-control" id="Correo">
+            </div>
+          
+            
+            <div class="form-group">
+            <label for="Descripción">Descripción de la solicitud </label>
+            <input type="text" name="Descripción" class="form-control" id="Descripción">
+            </div>
+    
+
+    <br>
+    <center>
+        <input type="submit" value="Registrar" class="btnacceso" name="btnRegistrar">
+    </center>
+    
+    </form>
+    </div>
+    <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+
+    <div class="interno">
+<p>
+    Mauricio Tadeo Martínez Blanco PW1
+</p>
+    </div>
+
+</section>
+
+
+</body>
+</html>

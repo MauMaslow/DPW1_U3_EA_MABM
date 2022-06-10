@@ -1,0 +1,301 @@
+* {
+  /*ayuda a tener un espaciado interno e externo completo*/
+  box-sizing: border-box;
+  /*margen 0*/
+  margin: 0;
+  /*espaciado 0*/
+  padding: 0;
+}
+
+body {
+  color: #ffffffff;
+  background-color: #5b9fd6;
+  font-size: 16px;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 3em;
+}
+
+a {
+  color: #ffffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  border-bottom: 2px solid #18ff37;
+  margin: 1px 0;
+}
+
+.contenedor {
+  width: 90%;
+  margin: auto;
+}
+
+/*Estilos de navegacin*/
+
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between; /*uyiliza espacio disponible*/
+  align-items: center;
+  height: 60px;
+  /*pading de 20 arriba y abaho y 0 hacia los lados*/
+  padding: 20px 0;
+}
+
+/*Navegación de izquierda a derecha*/
+
+.nav-main ul {
+  display: flex; /*Esto coloca una palabra alado de la otra*/
+}
+
+.nav-main ul li {
+  padding: 10px; /*Esto coloca un espacio entre las palabras*/
+}
+
+/*hover es como un superpuesto*/
+.nav-main ul li a:hover {
+  color: #ffdc18; /*cambia color de palabra seleccionada*/
+  border-bottom: 2px solid #ffdc18;
+  /*Esto coloca una linea abajo de la palabra seleccionada*/
+}
+
+.nav-main ul li a {
+  padding: 2px;
+  /*Coloca un espacio entre la palabra y la linea de abajo*/
+}
+
+/*Slide contenedor*/
+
+/*Encabezado*/
+
+.Encabezado {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+  /*lo siguiente es para centrar el texto que sobresale */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-image: url(https://img.freepik.com/vector-gratis/lindo-gatito-gato-dibujos-animados-corazon-doodle-patrones-fisuras_40564-383.jpg);
+}
+
+/*Imagen*/
+
+.Imagen img {
+  width: 100%;
+  height: 600px;
+}
+
+.Imagen h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+b {
+  color: rgb(0, 0, 0);
+}
+
+table {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
+  justify-content: center;
+}
+
+th {
+  color: rgb(0, 0, 0);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+/*parrafo*/
+
+p {
+  margin-top: 20px;
+}
+
+/*Cuadros*/
+
+.datosUbicacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px; /*Espacio entre columnas*/
+  margin: 10px 0;
+  align-items: center;
+}
+
+.datosUbicacion img {
+  width: 100%;
+  height: 300px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #474947;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 90%;
+}
+
+.footer .interno {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  color: rgb(231, 238, 245);
+}
+
+/*php formulario*/
+
+.formula {
+  padding: 20px 20px;
+  background-color: rgb(196, 184, 196);
+  position: relative;
+  align-items: center;
+  width: 22%;
+  margin-top: 10px;
+  margin-left: 35%;
+  color: #000000;
+}
+
+FORM div p {
+  margin-left: 20%;
+}
+
+FORM div label {
+  margin-right: auto;
+}
+
+FORM button {
+  margin-left: 17%;
+  width: 35%;
+}
+
+/*condicion*/
+
+.error {
+  color: #000000;
+  background-color: rgb(241, 161, 40);
+  font-size: 20px;
+}
+
+.correcto {
+  background-color: rgb(78, 230, 230);
+  font-size: 20px;
+  color: #000000;
+}
+
+/*Galeria*/
+
+.Cont{
+width: 95%;
+margin: 60px 60px;
+display: flex;
+}
+
+.element{
+display: flex;
+width: 200%;
+height: 300px;
+}
+
+.secc{
+width: 100%;
+padding-right: 20px;
+}
+
+.imge{
+display: block;
+width: 100%;
+height: 100%;
+}
+
+
+.info{    
+  color: rgb(7, 7, 7);
+  background-color: #1dee39e5;
+  text-align: center;
+}
+
+
+
+hr1 {
+  border-bottom: 2px;
+  margin: 1px 0;
+}
+
+/*Carrusel*/
+
+.carrusel {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;   
+}
+
+.carrusel img{
+  width: 100%;
+  height: 400px;
+  background-size: 100% 100%;
+  background-repeat:no-repeat; 
+  margin-left: 10px;  
+}
+
+.controles{
+    width: 95%;
+    margin: 10px 60px;
+    display: flex;
+    padding-left: 45%;
+  }
+
+  .controles button{
+    font-size: 25px;
+  }
+
+
+  /*Tabla2 Registro*/
+
+  .table2{
+border: 1;
+  }
+
+
+
+/*php formulario Consulta*/
+
+.formulaCon {
+  padding: 20px 20px;
+  background-color: rgb(196, 184, 196);
+  position: relative;
+  align-items: center;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 35%;
+  color: #000000;
+}
+
+.formulaCon input{
+  align-items: center;
+  text-align: left;
+  margin-left: 3px;
+}
+
+.form-control{
+  padding-left: 0%;
+}
